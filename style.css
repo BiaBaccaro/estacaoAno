@@ -1,0 +1,39 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    background-color: #814d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: rgb(248, 154, 145);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  input {
+    width: 70%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #f92a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  p#result {
+    margin-top: 10px;
+    font-weight: normal;
+  }
